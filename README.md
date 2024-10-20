@@ -1,5 +1,7 @@
 ## Hi there 👋 Antan Roy
-
+<p align="center">
+  <img src="https://github.com/antan2002/antan2002/blob/main/Think%20Twice.png" alt="Banner">
+</p>
 # 💫 About Me:
 🔭 I’m currently working on Web Development<br>👯 I’m looking to collaborate on Full Stack Project<br>🌱 I’m currently learning Typescript<br>💬 Ask me about JavaScript, React.js , Node.js<br>⚡ Fun fact <br>😄 Pronouns: He/Him<br>📫 How to reach me: antanroy502@gmail.com
 
