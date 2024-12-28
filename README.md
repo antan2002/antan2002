@@ -34,7 +34,7 @@
     </tr>
     <tr>
       <td><b>Frameworks/Databases</b></td>
-      <td>React.js, Node.js, Express.js, Bootstrap, REST API, MongoDB, PostgreSQL</td>
+      <td>React.js, Next.js, Node.js, Express.js, Bootstrap, REST API, MongoDB, PostgreSQL, Socket.io</td>
     </tr>
     <tr>
       <td><b>Tools</b></td>
