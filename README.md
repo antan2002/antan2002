@@ -1,74 +1,68 @@
-## Hi there 👋 Antan Roy
+<h1 align="center">
+  Hey 👋, I'm <i><b>Antan Roy</b></i>
+</h1>
+
+<h3 align="center">
+  <i>Full Stack Developer • AI Builder • Open Source Contributor</i>
+</h3>
+
 <p align="center">
-  <img src="https://github.com/antan2002/antan2002/blob/main/Think%20Twice.png" alt="Banner">
+  Building scalable web applications, AI-powered systems, and real-time platforms.
+</p>
+
+<p align="center">
+  <img src="https://readme-typing-svg.herokuapp.com?font=Helvetica&size=28&duration=3000&pause=1000&color=3B82F6&center=true&vCenter=true&width=900&lines=Full+Stack+Developer;AI+Systems+Builder;Exploring+LLM+Models+%26+AI+Agents;Building+Production+Ready+Applications;Open+Source+Contributor" />
 </p>
 
 ---
 
-## 🌐 Connect with Me:
+# <i><b>🚀 Exploring</b></i>
 
-  <a href="https://www.instagram.com/zentrov.a/"><img src="https://img.shields.io/badge/Instagram-%23E4405F.svg?style=for-the-badge&logo=instagram&logoColor=white" alt="Instagram"/></a>
-  <a href="https://linkedin.com/in/antanroy"><img src="https://img.shields.io/badge/LinkedIn-%230077B5.svg?style=for-the-badge&logo=linkedin&logoColor=white" alt="LinkedIn"/></a>
-  <a href="https://github.com/antan2002"><img src="https://img.shields.io/github/followers/antan2002?label=Follow&style=social" alt="GitHub followers"/></a>
-
-
----
-
-## 💫 About Me:
-- 🔭 Currently working on **Web Development**
-- 👯 Looking to collaborate on **Full Stack Projects**
-- 🌱 Learning **Typescript**
-- 💬 Ask me about **JavaScript, React.js, Node.js**
-- ⚡ Fun Fact: **Always exploring new tech!**
-- 😄 Pronouns: **He/Him**
-- 📫 Reach me at **antanroy502@gmail.com**
+- 💼 Ex-Software Engineer Intern at <a href="https://www.nrolled.com/">Nrolled</a>
+- 🧠 Exploring **LLM Models, AI Agents & Prompt Engineering**
+- ⚡ Building **production-ready full stack applications**
+- 🔥 Interested in **System Design & Backend Engineering**
+- 🌍 Open to **Full Stack / Backend / AI opportunities**
+- 💬 Ask me about **React.js, Node.js, TypeScript, APIs & AI Integration**
 
 ---
 
-## 💻 Tech Stack:
-<div align="center">
-  <table>
-    <tr>
-      <td><b>Languages</b></td>
-      <td>C++, C, JavaScript, HTML/CSS</td>
-    </tr>
-    <tr>
-      <td><b>Frameworks/Databases</b></td>
-      <td>React.js, Next.js, Node.js, Express.js, Bootstrap, Tailwind Css, REST API, MongoDB, PostgreSQL, Socket.io</td>
-    </tr>
-    <tr>
-      <td><b>Tools</b></td>
-      <td>Visual Studio Code, GitHub, Postman</td>
-    </tr>
-    <tr>
-      <td><b>Soft Skills</b></td>
-      <td>Problem Solving, Self-learning, Time Management, Adaptability, Communication</td>
-    </tr>
-  </table>
-</div>
+# <i><b>💻 Technologies I'm familiar with...</b></i>
+
+<p align="left">
+
+<img src="https://img.shields.io/badge/React-111827?style=for-the-badge&logo=react&logoColor=61DAFB" />
+<img src="https://img.shields.io/badge/Next.js-000000?style=for-the-badge&logo=next.js&logoColor=white" />
+<img src="https://img.shields.io/badge/Node.js-339933?style=for-the-badge&logo=node.js&logoColor=white" />
+<img src="https://img.shields.io/badge/PostgreSQL-336791?style=for-the-badge&logo=postgresql&logoColor=white" />
+<img src="https://img.shields.io/badge/TailwindCSS-06B6D4?style=for-the-badge&logo=tailwindcss&logoColor=white" />
+<img src="https://img.shields.io/badge/Shadcn-06B6D4?style=for-the-badge&logo=shadcn&logoColor=white" />
+<img src="https://img.shields.io/badge/JavaScript-F7DF1E?style=for-the-badge&logo=javascript&logoColor=black" />
+<img src="https://img.shields.io/badge/TypeScript-3178C6?style=for-the-badge&logo=typescript&logoColor=white" />
+<img src="https://img.shields.io/badge/Pyhton-FCC624?style=for-the-badge&logo=linux&logoColor=black" />
+<img src="https://img.shields.io/badge/Supabase-3ECF8E?style=for-the-badge&logo=supabase&logoColor=white" />
+<img src="https://img.shields.io/badge/FastAPI-009688?style=for-the-badge&logo=fastapi&logoColor=white" />
+<img src="https://img.shields.io/badge/Docker-2496ED?style=for-the-badge&logo=docker&logoColor=white" />
+<img src="https://img.shields.io/badge/AWS-232F3E?style=for-the-badge&logo=amazonaws&logoColor=FF9900" />
+<img src="https://img.shields.io/badge/C++-00599C?style=for-the-badge&logo=c%2B%2B&logoColor=white" />
+<img src="https://img.shields.io/badge/WebSocket-010101?style=for-the-badge&logo=socketdotio&logoColor=white" />
+
+</p>
+
+# <i><b>🏆 Achievements</b></i>
+
+- 🚀 Solved **500+ DSA problems**
+- 🏅 Active contributor in **Hacktoberfest & GSSoC**
+- ⚡ Built multiple AI-powered systems using LLM workflows
+- 🧠 Interested in scalable systems & backend engineering
 
 ---
 
-## Holopin(24) Badges 🪶
-<p align="center">
-  <a href="https://gssoc.girlscript.tech/leaderboard">
-    <img src="https://raw.githubusercontent.com/GSSoC24/Postman-Challenge/main/docs/assets/Postman%20White.png" width="100px" height="100px" alt="GSSOC Badge"/>
-    <img src="https://assets.holopin.io/hf2024levels/level1-sloth-code-tumbler-0-0-0.webp" width="100px" height="100px" />
-    <img src="https://assets.holopin.io/eyJidWNrZXQiOiJob2xvcGluLWFzc2V0cyIsImtleSI6ImFzc2V0cy9jbDd0ZDhncDUwMTMyMDlrMHd1OHFlNHg5IiwiZWRpdHMiOnsicm90YXRlIjpudWxsfX0=" width="100px" height="100px" />
-     <img src="https://assets.holopin.io/hf2024levels/level2-sloth-code-tumbler-hoodie-0-0.webp" width="100px" height="100px" />
-  </a>
+# <i><b>📫 Reach Me</b></i>
+
+<p align="left">
+  📧 Email: <b><i>antanroy2002@gmail.com</i></b> <br/>
+  🌍 Location: <b><i>Kolkata, India</i></b>
 </p>
 
 ---
-
-### 📌 Codolio Profile:
-
-  <a href="https://codolio.com/profile/jGJ3Q1ri">
-    <img src="https://img.shields.io/badge/View-My_Codolio_Profile-blue?style=for-the-badge&logo=internet-explorer&logoColor=white" alt="Codolio Profile">
-  </a>
-
----
-
-<p align="center">
-  <img src="https://capsule-render.vercel.app/api?type=waving&height=300&color=gradient&text=Namaste%20🙏🏾&section=footer&fontSize=41&animation=fadeIn&descAlign=52&descAlignY=74" alt="Footer Banner"/>
-</p>
