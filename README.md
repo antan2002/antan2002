@@ -1,156 +1,87 @@
-<h1 align="center">Hey 👋, I'm Antan Roy</h1>
-
-<h3 align="center">
-Full Stack Developer • AI Builder • Open Source Contributor
-</h3>
-
+## Hi there 👋 Antan Roy
 <p align="center">
-Building scalable web apps, AI-powered systems, and real-time products.
-</p>
-
-<p align="center">
-  <img src="https://readme-typing-svg.herokuapp.com?font=Fira+Code&size=26&pause=1000&color=00F7FF&center=true&vCenter=true&width=900&lines=Full+Stack+Developer;AI+Engineer;React+%7C+Node.js+%7C+MongoDB;Building+Production+Level+Projects;Open+Source+Contributor;Always+Building+Something+New" />
+  <img src="https://github.com/antan2002/antan2002/blob/main/Think%20Twice.png" alt="Banner">
 </p>
 
 ---
 
-<p align="center">
-  <img src="https://komarev.com/ghpvc/?username=antan2002&label=Profile%20Views&color=0e75b6&style=flat" />
-</p>
+## 🌐 Connect with Me:
+
+  <a href="https://www.instagram.com/zentrov.a/"><img src="https://img.shields.io/badge/Instagram-%23E4405F.svg?style=for-the-badge&logo=instagram&logoColor=white" alt="Instagram"/></a>
+  <a href="https://linkedin.com/in/antanroy"><img src="https://img.shields.io/badge/LinkedIn-%230077B5.svg?style=for-the-badge&logo=linkedin&logoColor=white" alt="LinkedIn"/></a>
+  <a href="https://github.com/antan2002"><img src="https://img.shields.io/github/followers/antan2002?label=Follow&style=social" alt="GitHub followers"/></a>
+
 
 ---
 
-## 🌐 Connect With Me
-
-<p align="center">
-
-<a href="https://linkedin.com/in/antanroy">
-<img src="https://img.shields.io/badge/LinkedIn-0077B5?style=for-the-badge&logo=linkedin&logoColor=white"/>
-</a>
-
-<a href="https://www.instagram.com/zentrov.a/">
-<img src="https://img.shields.io/badge/Instagram-E4405F?style=for-the-badge&logo=instagram&logoColor=white"/>
-</a>
-
-<a href="mailto:antanroy502@gmail.com">
-<img src="https://img.shields.io/badge/Gmail-D14836?style=for-the-badge&logo=gmail&logoColor=white"/>
-</a>
-
-<a href="https://github.com/antan2002">
-<img src="https://img.shields.io/github/followers/antan2002?style=for-the-badge"/>
-</a>
-
-</p>
-
----
-
-# 💫 About Me
-
-- 🚀 Building AI-powered full stack applications
-- 🛒 Developing **IntelliCart** — AI Smart Shopping Assistant
-- 🎵 Building a Full Stack Music Streaming Platform
-- 🤖 Exploring AI recommendation systems using Gemini AI
-- ⚡ Interested in scalable backend systems & real-time apps
-- 🌱 Currently learning **TypeScript & System Design**
-- 💬 Ask me about **React, Node.js, MongoDB, JavaScript**
+## 💫 About Me:
+- 🔭 Currently working on **Web Development**
+- 👯 Looking to collaborate on **Full Stack Projects**
+- 🌱 Learning **Typescript**
+- 💬 Ask me about **JavaScript, React.js, Node.js**
+- ⚡ Fun Fact: **Always exploring new tech!**
+- 😄 Pronouns: **He/Him**
 - 📫 Reach me at **antanroy502@gmail.com**
 
 ---
 
-# ⚒️ Tech Stack
+## 💻 Tech Stack:
+<div align="center">
+  <table>
+    <tr>
+      <td><b>Languages</b></td>
+      <td>C++, C, JavaScript, HTML/CSS</td>
+    </tr>
+    <tr>
+      <td><b>Frameworks/Databases</b></td>
+      <td>React.js, Next.js, Node.js, Express.js, Bootstrap, Tailwind Css, REST API, MongoDB, PostgreSQL, Socket.io</td>
+    </tr>
+    <tr>
+      <td><b>Tools</b></td>
+      <td>Visual Studio Code, GitHub, Postman</td>
+    </tr>
+    <tr>
+      <td><b>Soft Skills</b></td>
+      <td>Problem Solving, Self-learning, Time Management, Adaptability, Communication</td>
+    </tr>
+  </table>
+</div>
 
+---
+
+## 📊 GitHub Stats:
+<div align="center">
+  <table>
+    <tr>
+      <td><img width="300em" src="https://github-readme-stats.vercel.app/api?username=antan2002&theme=tokyonight&hide_border=false&include_all_commits=false&count_private=false" alt="Profile Summary"></td>
+      <td><img width="300em" src="https://github-readme-streak-stats.herokuapp.com/?user=antan2002&theme=tokyonight&hide_border=false" alt="GitHub Stats"></td>
+      <td><img width="300em" src="https://github-readme-stats.vercel.app/api/top-langs/?username=antan2002&theme=tokyonight&hide_border=false&include_all_commits=false&count_private=false&layout=compact" alt="Most Used Languages"></td>
+    </tr>
+  </table>
+</div>
+
+---
+
+## Holopin(24) Badges 🪶
 <p align="center">
-
-<img src="https://skillicons.dev/icons?i=cpp,c,js,ts,react,nextjs,nodejs,express,mongodb,postgres,tailwind,bootstrap,git,github,vscode,postman" />
-
+  <a href="https://gssoc.girlscript.tech/leaderboard">
+    <img src="https://raw.githubusercontent.com/GSSoC24/Postman-Challenge/main/docs/assets/Postman%20White.png" width="100px" height="100px" alt="GSSOC Badge"/>
+    <img src="https://assets.holopin.io/hf2024levels/level1-sloth-code-tumbler-0-0-0.webp" width="100px" height="100px" />
+    <img src="https://assets.holopin.io/eyJidWNrZXQiOiJob2xvcGluLWFzc2V0cyIsImtleSI6ImFzc2V0cy9jbDd0ZDhncDUwMTMyMDlrMHd1OHFlNHg5IiwiZWRpdHMiOnsicm90YXRlIjpudWxsfX0=" width="100px" height="100px" />
+     <img src="https://assets.holopin.io/hf2024levels/level2-sloth-code-tumbler-hoodie-0-0.webp" width="100px" height="100px" />
+  </a>
 </p>
 
 ---
 
-# 🚀 Currently Building
+### 📌 Codolio Profile:
 
-### 🛒 IntelliCart
-AI-powered smart shopping assistant featuring:
-- Health-based recommendations
-- Budget optimization
-- AI product insights
-- Smart cart analysis
-
-### 🎵 Music Streaming Platform
-Full stack music application with:
-- JioSaavn integration
-- Lyrics support
-- User authentication
-- Real-time streaming
-
-### ✈️ AI Trip Generator
-AI travel planner featuring:
-- Gemini AI itineraries
-- Google Maps integration
-- Dynamic price estimation
-
----
-
-# 🌟 Featured Projects
-
-| Project | Tech Stack |
-|----------|-------------|
-| 🛒 IntelliCart | React, Node.js, MongoDB, Gemini AI |
-| 🎵 Music Streaming Platform | Next.js, Express.js, MongoDB |
-| ✈️ AI Trip Generator | React, Gemini AI, Google Maps API |
-| ⚡ Real-Time Applications | Socket.io, Node.js |
-
----
-
-# 📊 GitHub Analytics
-
-<p align="center">
-<img width="49%" src="https://github-readme-stats.vercel.app/api?username=antan2002&show_icons=true&theme=tokyonight&hide_border=true" />
-
-<img width="49%" src="https://github-readme-streak-stats.herokuapp.com/?user=antan2002&theme=tokyonight&hide_border=true" />
-</p>
-
-<p align="center">
-<img width="40%" src="https://github-readme-stats.vercel.app/api/top-langs/?username=antan2002&layout=compact&theme=tokyonight&hide_border=true" />
-</p>
-
----
-
-# 🏆 GitHub Trophies
-
-<p align="center">
-<img src="https://github-profile-trophy.vercel.app/?username=antan2002&theme=tokyonight&row=1&column=6" />
-</p>
-
----
-
-# 🐍 Contribution Snake
-
-<p align="center">
-  <img src="https://raw.githubusercontent.com/antan2002/antan2002/output/github-contribution-grid-snake.svg" />
-</p>
-
----
-
-# 📌 Codolio Profile
-
-<p align="center">
-<a href="https://codolio.com/profile/jGJ3Q1ri">
-<img src="https://img.shields.io/badge/View%20My%20Codolio%20Profile-blue?style=for-the-badge&logo=internet-explorer&logoColor=white" />
-</a>
-</p>
-
----
-
-# 🎯 Goals for 2026
-
-- 🚀 Build production-level AI systems
-- 🌍 Contribute more to Open Source
-- 📈 Master scalable backend architecture
-- ⚡ Build impactful developer products
+  <a href="https://codolio.com/profile/jGJ3Q1ri">
+    <img src="https://img.shields.io/badge/View-My_Codolio_Profile-blue?style=for-the-badge&logo=internet-explorer&logoColor=white" alt="Codolio Profile">
+  </a>
 
 ---
 
 <p align="center">
-  <img src="https://capsule-render.vercel.app/api?type=waving&height=250&color=gradient&text=Thanks%20for%20visiting!&section=footer&fontSize=40&fontAlignY=70&animation=fadeIn" />
+  <img src="https://capsule-render.vercel.app/api?type=waving&height=300&color=gradient&text=Namaste%20🙏🏾&section=footer&fontSize=41&animation=fadeIn&descAlign=52&descAlignY=74" alt="Footer Banner"/>
 </p>
