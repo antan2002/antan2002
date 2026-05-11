@@ -49,19 +49,6 @@
 
 ---
 
-## 📊 GitHub Stats:
-<div align="center">
-  <table>
-    <tr>
-      <td><img width="300em" src="https://github-readme-stats.vercel.app/api?username=antan2002&theme=tokyonight&hide_border=false&include_all_commits=false&count_private=false" alt="Profile Summary"></td>
-      <td><img width="300em" src="https://github-readme-streak-stats.herokuapp.com/?user=antan2002&theme=tokyonight&hide_border=false" alt="GitHub Stats"></td>
-      <td><img width="300em" src="https://github-readme-stats.vercel.app/api/top-langs/?username=antan2002&theme=tokyonight&hide_border=false&include_all_commits=false&count_private=false&layout=compact" alt="Most Used Languages"></td>
-    </tr>
-  </table>
-</div>
-
----
-
 ## Holopin(24) Badges 🪶
 <p align="center">
   <a href="https://gssoc.girlscript.tech/leaderboard">
