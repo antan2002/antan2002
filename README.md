@@ -18,7 +18,7 @@
 
 # <i><b>🚀 Exploring</b></i>
 
-- 💼 Ex-Software Engineer Intern at <a href="https://www.nrolled.com/">Nrolled</a>
+- 💼 Ex-Software Engineer at <a href="https://www.nrolled.com/">Nrolled</a>
 - 🧠 Exploring **LLM Models, AI Agents & Prompt Engineering**
 - ⚡ Building **production-ready full stack applications**
 - 🔥 Interested in **System Design & Backend Engineering**
