@@ -566,8 +566,10 @@ def card_contrib_graph(d: dict) -> str:
         seed = hashlib.md5(f"{week}-{day}".encode()).digest()[0]
         base = (seed / 255) ** 1.4
         # weight by monthly distribution
-        month_idx = min(int(week / 52 * 12), 11)
-        m_weight  = months[month_idx]["count"] / (avg_week * DAYS) if avg_week else 0.5
+        # The current year may have fewer than 12 months of data (e.g. in November),
+        # so clamp to the last available month instead of assuming index 11 exists.
+        month_idx = min(int(week / 52 * 12), len(months) - 1) if months else 0
+        m_weight  = months[month_idx]["count"] / (avg_week * DAYS) if (avg_week and months) else 0.5
         return min(1.0, base * m_weight * 2.2)
 
     for w in range(WEEKS):
