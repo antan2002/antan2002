@@ -98,6 +98,7 @@ user = data["data"]["user"]
 
 days_by_month: dict[str, int] = defaultdict(int)
 day_counts:    dict[str, int] = defaultdict(int)   # weekday → count
+day_records:   list[dict]     = []               # full daily calendar for the heatmap
 
 weeks = user["contributionsCollection"]["contributionCalendar"]["weeks"]
 total_year = user["contributionsCollection"]["contributionCalendar"]["totalContributions"]
@@ -107,6 +108,7 @@ for week in weeks:
         d   = datetime.fromisoformat(day["date"])
         key = d.strftime("%Y-%m")
         days_by_month[key] += day["contributionCount"]
+        day_records.append({"date": day["date"], "count": day["contributionCount"]})
         if day["contributionCount"] > 0:
             day_counts[d.strftime("%A")] += 1
 
@@ -188,6 +190,8 @@ if not repos:
 output = {
     "username":               USERNAME,
     "avatar_url":             user["avatarUrl"],
+    "year":                   now.year,
+    "days":                   day_records,
     "months":                 months_list,
     "streak_days":            streak,
     "total_contributions_year": total_year,
