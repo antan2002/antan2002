@@ -765,11 +765,11 @@
     },
     {
       "date": "2026-07-10",
-      "count": 1
+      "count": 0
     },
     {
       "date": "2026-07-11",
-      "count": 13
+      "count": 14
     },
     {
       "date": "2026-07-12",
@@ -1305,7 +1305,7 @@
     },
     {
       "date": "2026-11-22",
-      "count": 4
+      "count": 5
     }
   ],
   "months": [
@@ -1351,26 +1351,26 @@
     },
     {
       "month": "2026-11",
-      "count": 20
+      "count": 21
     }
   ],
   "streak_days": 1,
-  "total_contributions_year": 355,
-  "active_days": 74,
+  "total_contributions_year": 356,
+  "active_days": 73,
   "busiest_day": "Wednesday",
   "repos": [
     {
-      "name": "AI-Trip-Generator",
-      "description": "",
-      "url": "https://github.com/antan2002/AI-Trip-Generator",
-      "stars": 0,
+      "name": "flind",
+      "description": "AI cloud IDE with multi-agent coding, live preview and GitHub sync.",
+      "url": "https://github.com/antan2002/flind",
+      "stars": 1,
       "forks": 0,
-      "language": "JavaScript",
-      "lang_color": "#f1e05a"
+      "language": "TypeScript",
+      "lang_color": "#3178c6"
     },
     {
       "name": "IntelliCart-Sparkathon",
-      "description": "Video on You tube",
+      "description": "Health-aware AI cart with budget-friendly product picks.",
       "url": "https://github.com/antan2002/IntelliCart-Sparkathon",
       "stars": 1,
       "forks": 1,
@@ -1379,12 +1379,12 @@
     },
     {
       "name": "assistance",
-      "description": "AI-powered study assistant for smart learning, quick answers, and productivity.",
+      "description": "Real-time AI copilot for calls and interviews.",
       "url": "https://github.com/antan2002/assistance",
       "stars": 1,
       "forks": 0,
       "language": "JavaScript",
-      "lang_color": "#f1e05a"
+      "lang_color": "#f7df1e"
     }
   ],
   "links": [

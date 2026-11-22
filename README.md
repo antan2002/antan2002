@@ -5,7 +5,7 @@
 <img src="./cards/activity.svg" width="100%" alt="Contributions in the last 12 months" /><br>
 <a href="https://github.com/antan2002?tab=repositories"><img src="./cards/build.svg" width="33.333%" alt="BUILD: featured repositories" /></a><a href="https://github.com/antan2002"><img src="./cards/code.svg" width="33.333%" alt="CODE: contributions this year" /></a><a href="https://leetcode.com/u/antanroy"><img src="./cards/learn.svg" width="33.333%" alt="LEARN: 500+ DSA problems" /></a><br>
 <picture><source media="(prefers-color-scheme: dark)" srcset="./cards/title-coding-dark.svg" /><img src="./cards/title-coding-light.svg" width="100%" alt="What I'm coding" /></picture><br>
-<a href="https://github.com/antan2002/AI-Trip-Generator"><img src="./cards/repo-AI-Trip-Generator.svg" width="33.333%" alt="AI-Trip-Generator" /></a><a href="https://github.com/antan2002/IntelliCart-Sparkathon"><img src="./cards/repo-IntelliCart-Sparkathon.svg" width="33.333%" alt="IntelliCart-Sparkathon" /></a><a href="https://github.com/antan2002/assistance"><img src="./cards/repo-assistance.svg" width="33.333%" alt="assistance" /></a>
+<a href="https://github.com/antan2002/flind"><img src="./cards/repo-flind.svg" width="33.333%" alt="flind" /></a><a href="https://github.com/antan2002/IntelliCart-Sparkathon"><img src="./cards/repo-IntelliCart-Sparkathon.svg" width="33.333%" alt="IntelliCart-Sparkathon" /></a><a href="https://github.com/antan2002/assistance"><img src="./cards/repo-assistance.svg" width="33.333%" alt="assistance" /></a>
 </div>
 
 <p align="center">

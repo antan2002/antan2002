@@ -138,50 +138,38 @@ for n in range(366):
         break
 
 # ---------------------------------------------------------------------------
-# Pinned repos
+# Featured repos for the "What I'm coding" row.
+# Descriptions are written from each repo's README so the cards never go blank.
 # ---------------------------------------------------------------------------
 
-repos = []
-for node in user.get("pinnedItems", {}).get("nodes", []):
-    if not node:
-        continue
-    lang      = node.get("primaryLanguage") or {}
-    lang_name = lang.get("name", "Unknown")
-    repos.append({
-        "name":        node["name"],
-        "description": node.get("description") or "",
-        "url":         node["url"],
-        "stars":       node["stargazerCount"],
-        "forks":       node["forkCount"],
-        "language":    lang_name,
-        "lang_color":  lang.get("color") or "#8b949e",
-    })
+FEATURED = [
+    ("flind", "AI cloud IDE with multi-agent coding, live preview and GitHub sync."),
+    ("IntelliCart-Sparkathon", "Health-aware AI cart with budget-friendly product picks."),
+    ("assistance", "Real-time AI copilot for calls and interviews."),
+]
+LANG_COLOR = {"TypeScript": "#3178c6", "JavaScript": "#f7df1e"}
 
-# Fall back to hardcoded list if no pinned repos
-if not repos:
-    repos = [
-        {
-            "name": "AI-Trip-Generator",
-            "description": "AI-powered travel itinerary generator with real-time suggestions",
-            "url": "https://github.com/antan2002/AI-Trip-Generator",
-            "stars": 0, "forks": 0,
-            "language": "JavaScript", "lang_color": "#f7df1e",
-        },
-        {
-            "name": "IntelliCart-Sparkathon",
-            "description": "Smart retail cart system built for Sparkathon hackathon",
-            "url": "https://github.com/antan2002/IntelliCart-Sparkathon",
-            "stars": 1, "forks": 1,
-            "language": "TypeScript", "lang_color": "#3178c6",
-        },
-        {
-            "name": "assistance",
-            "description": "AI-powered study assistant for smart learning and quick answers",
-            "url": "https://github.com/antan2002/assistance",
-            "stars": 1, "forks": 0,
-            "language": "JavaScript", "lang_color": "#f7df1e",
-        },
-    ]
+pinned = {n["name"]: n for n in (user.get("pinnedItems", {}).get("nodes") or []) if n}
+repos = []
+for name, blurb in FEATURED:
+    meta = pinned.get(name)
+    try:
+        r = requests.get(f"https://api.github.com/repos/{USERNAME}/{name}",
+                         headers={"Authorization": f"bearer {TOKEN}"}, timeout=10)
+        r = r.json() if r.status_code == 200 else {}
+    except Exception:
+        r = {}
+    lang = (r.get("language") or
+            ((meta or {}).get("primaryLanguage") or {}).get("name") or "Code")
+    repos.append({
+        "name": name,
+        "description": blurb,
+        "url": f"https://github.com/{USERNAME}/{name}",
+        "stars": r.get("stargazers_count", (meta or {}).get("stargazerCount", 0)),
+        "forks": r.get("forks_count", (meta or {}).get("forkCount", 0)),
+        "language": lang,
+        "lang_color": LANG_COLOR.get(lang, "#8b949e"),
+    })
 
 # ---------------------------------------------------------------------------
 # Write output
