@@ -54,11 +54,22 @@ def anim(delay, extra=""):
     return f'style="animation-delay:{delay:.2f}s;{extra}"'
 
 
+_CSS_CACHE = None
+
+
+def shared_css():
+    global _CSS_CACHE
+    if _CSS_CACHE is None:
+        p = Path(__file__).parent / "card_css.css"
+        _CSS_CACHE = p.read_text(encoding="utf-8") if p.exists() else font_css() + CSS
+    return _CSS_CACHE
+
+
 def header(width, height, label, extra_css=""):
     static_css = "*{animation:none!important;opacity:1!important;transform:none!important}" if STATIC else ""
     return (f'<svg xmlns="http://www.w3.org/2000/svg" width="{width:.3f}" height="{height}" '
             f'viewBox="0 0 {width:.3f} {height}" role="img" aria-label="{esc(label)}">'
-            f'<title>{esc(label)}</title><style>{font_css()}{CSS}{extra_css}{static_css}</style>')
+            f'<title>{esc(label)}</title><style>{shared_css()}{extra_css}{static_css}</style>')
 
 
 def footer():

@@ -8,8 +8,8 @@ def tile(key, value, unit, caption_lines, color, fg="#ffffff"):
     parts = [header(w, h, f"{key}: {value} {unit}")]
     parts.append(f'<rect x="4" y="6" width="285.333" height="210" rx="14" fill="{color}"/>')
     parts.append(text(24, 40, key, 12, fg, "GeistMono", spacing=1.6,
-                      cls="s", delay=0.2))
-    parts.append(text(262, 40, "→", 20, fg, anchor="end", cls="s", delay=0.3))
+                      cls="sl", delay=0.2))
+    parts.append(text(262, 40, "→", 20, fg, anchor="end", cls="sl", delay=0.3))
     steps = 18 if value <= 60 else 24
     for i in range(steps + 1):
         n = round(value * i / steps)
