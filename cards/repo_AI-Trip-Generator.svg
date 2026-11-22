@@ -1,0 +1,25 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="860" height="130" viewBox="0 0 860 130" role="img">
+<style>
+  @media (prefers-reduced-motion: reduce) {
+    * { animation: none !important; transition: none !important; }
+  }
+  text { font-family: -apple-system, 'Segoe UI', Helvetica, Arial, sans-serif; }
+  .dim  { fill: #8b949e; }
+  .hi   { fill: #e6edf3; }
+  .acc  { fill: #3b82f6; }
+  .card { fill: #161b22; stroke: #30363d; stroke-width: 1; }
+  @keyframes fadeUp {
+    from { opacity: 0; transform: translateY(14px); }
+    to   { opacity: 1; transform: translateY(0); }
+  }
+  @keyframes barGrow {
+    from { transform: scaleY(0); }
+    to   { transform: scaleY(1); }
+  }
+  @keyframes pulse {
+    0%,100% { opacity: 1; }
+    50%     { opacity: .5; }
+  }
+</style>
+<rect width="860" height="130" rx="12" fill="#0d1117"/>
+<g opacity="0"><animate attributeName="opacity" from="0" to="1" begin="0.08s" dur="0.5s" fill="freeze"/><rect x="12" y="12" width="836" height="106" rx="10" fill="#161b22" stroke="#30363d" stroke-width="1"/><g transform="translate(28,28) scale(0.75)"><path d="M2 2.5A2.5 2.5 0 0 1 4.5 0h8.75a.75.75 0 0 1 .75.75v12.5a.75.75 0 0 1-.75.75h-2.5a.75.75 0 0 1 0-1.5H12v-2h-8a1 1 0 0 0-.717 1.7.75.75 0 1 1-1.071 1.05A2.495 2.495 0 0 1 2 11.5zm10.5-1h-8a1 1 0 0 0-1 1v6.708A2.486 2.486 0 0 1 4.5 9h8.5V1.5z" fill="#3b82f6"/></g><text x="52" y="38" font-size="15" font-weight="700" fill="#3b82f6">AI-Trip-Generator</text><text x="28" y="60" font-size="13" fill="#8b949e">AI-powered travel itinerary generator with real-time suggestions</text><circle cx="30" cy="102" r="6" fill="#f7df1e"/><text x="42" y="106" font-size="12" fill="#8b949e">JavaScript</text><text x="390" y="106" font-size="12" fill="#8b949e">⭐ 0</text><text x="450" y="106" font-size="12" fill="#8b949e">🍴 0</text></g></svg>

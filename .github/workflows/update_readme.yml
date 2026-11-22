@@ -1,0 +1,61 @@
+name: Update README Cards
+
+on:
+  schedule:
+    # Run every day at 03:00 UTC (08:30 IST)
+    - cron: "0 3 * * *"
+  workflow_dispatch:   # allow manual runs from the Actions tab
+
+permissions:
+  contents: write
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+
+    steps:
+      # ------------------------------------------------------------------ #
+      # 1. Checkout the profile repo
+      # ------------------------------------------------------------------ #
+      - name: Checkout
+        uses: actions/checkout@v4
+
+      # ------------------------------------------------------------------ #
+      # 2. Set up Python
+      # ------------------------------------------------------------------ #
+      - name: Set up Python 3.12
+        uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+
+      # ------------------------------------------------------------------ #
+      # 3. Install Python dependencies
+      # ------------------------------------------------------------------ #
+      - name: Install dependencies
+        run: pip install fonttools brotli requests
+
+      # ------------------------------------------------------------------ #
+      # 4. Fetch contribution data via GitHub GraphQL API
+      #    Writes contributions.json used by render_cards.py
+      # ------------------------------------------------------------------ #
+      - name: Fetch contribution data
+        env:
+          GH_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+        run: python fetch_contributions.py
+
+      # ------------------------------------------------------------------ #
+      # 5. Render SVG cards
+      # ------------------------------------------------------------------ #
+      - name: Render SVG cards
+        run: python render_cards.py
+
+      # ------------------------------------------------------------------ #
+      # 6. Commit cards + data back to the repo (if anything changed)
+      # ------------------------------------------------------------------ #
+      - name: Commit and push changes
+        uses: stefanzweifel/git-auto-commit-action@v5
+        with:
+          commit_message: "chore: auto-update README cards [skip ci]"
+          file_pattern: "cards/*.svg contributions.json README.md"
+          commit_user_name: "readme-bot"
+          commit_user_email: "41898282+github-actions[bot]@users.noreply.github.com"
