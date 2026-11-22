@@ -22,16 +22,15 @@ def hero(d):
                       "GeistMono", cls="r", delay=0.7))
     parts.append(text(42, 404, "KOLKATA, INDIA  ·  OPEN TO WORK", 10, MUTED,
                       "GeistMono", spacing=1.1, cls="r", delay=0.8))
-    av = Path(__file__).parent.joinpath("avatar_b64.txt")
-    if av.exists():
-        b64 = av.read_text(encoding="utf-8").strip()
-        cx, cy, r = 690, 216, 132
-        parts.append(f'<defs><clipPath id="avatar"><circle cx="{cx}" cy="{cy}" r="{r}"/></clipPath></defs>')
+    art = Path(__file__).parent.joinpath("avatar_ascii.txt")
+    if art.exists():
+        lines = art.read_text(encoding="utf-8").splitlines()
         parts.append(f'<g class="r" {anim(0.5)}>')
-        parts.append(f'<image href="data:image/png;base64,{b64}" x="{cx-r}" y="{cy-r}" '
-                     f'width="{2*r}" height="{2*r}" clip-path="url(#avatar)"/>')
-        parts.append(f'<circle cx="{cx}" cy="{cy}" r="{r}" fill="none" stroke="{BLUE}" stroke-width="3"/>')
-        parts.append('</g>')
+        parts.append('<text x="468" y="70" font-size="5.4" fill="' + BLUE +
+                     '" font-family="\'Geist Mono\', monospace" xml:space="preserve">')
+        for i, line in enumerate(lines):
+            parts.append(f'<tspan x="468" dy="7.4">{esc(line)}</tspan>')
+        parts.append("</text></g>")
     parts.append(footer())
     return "".join(parts)
 
